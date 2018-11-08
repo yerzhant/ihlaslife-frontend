@@ -1,35 +1,39 @@
 <template>
   <v-app>
-    <v-toolbar app>
-      <v-toolbar-title class="headline text-uppercase">
-        <span>Vuetify</span>
-        <span class="font-weight-light">MATERIAL DESIGN</span>
-      </v-toolbar-title>
-      <v-spacer></v-spacer>
-      <v-btn
-        flat
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>open_in_new</v-icon>
-      </v-btn>
-    </v-toolbar>
-
+    <v-toolbar color="primary" app></v-toolbar>
     <v-content>
-      <router-view/>
+      <router-view></router-view>
     </v-content>
+    <v-footer height="auto">
+      <v-card width="100%" justify-center>
+        <v-img :src="require('@/assets/ihlas-in-footer.png')" justify-center class="v-img"></v-img>
+          <v-card-text>
+            <span>Осталось сауабов:</span>
+            <span class="accent--text pr-1 pl-1 amount-left">777 777</span>
+            <span>тг.</span>
+          </v-card-text>
+      </v-card>
+    </v-footer>
   </v-app>
 </template>
 
 <script>
-
 export default {
-  name: 'App',
-  data () {
+  data() {
     return {
       //
-    }
+    };
   }
-}
+};
 </script>
+
+<style lang="scss" scoped>
+.v-img {
+  width: 50%;
+}
+.amount-left {
+  font-family: $pt-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+</style>
