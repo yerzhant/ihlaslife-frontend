@@ -9,5 +9,5 @@ Vue.use(Vuetify, {
     accent: '#47E676'
   },
   // customProperties: true,
-  iconfont: 'md',
+  iconfont: 'mdi',
 })
