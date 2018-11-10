@@ -7,7 +7,7 @@
       scroll-off-screen
       class="rounded-borders rounded-borders_bottom"
     >
-      <v-toolbar-side-icon @click.stop="menu = !menu"></v-toolbar-side-icon>
+      <v-toolbar-side-icon @click.stop="sideBarsStates.menu = !sideBarsStates.menu"></v-toolbar-side-icon>
       <v-toolbar-title>ИХЛЯС Лайф</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn icon>
@@ -16,11 +16,12 @@
       <v-btn icon>
         <v-icon>mdi-whatsapp</v-icon>
       </v-btn>
-      <v-btn icon>
+      <v-btn icon @click.stop="sideBarsStates.sideBar = !sideBarsStates.sideBar">
         <v-icon>mdi-dots-vertical</v-icon>
       </v-btn>
     </v-toolbar>
-    <app-menu :opened="menu"/>
+    <app-menu :states="sideBarsStates"/>
+    <app-side-bar :states="sideBarsStates"/>
     <v-content>
       <router-view></router-view>
     </v-content>
@@ -31,16 +32,21 @@
 <script>
 import AppFooter from './components/AppFooter.vue'
 import AppMenu from './components/AppMenu.vue'
+import AppSideBar from './components/AppSideBar.vue'
 
 export default {
   data() {
     return {
-      menu: false,
+      sideBarsStates: {
+        menu: false,
+        sideBar: false,
+      },
     }
   },
   components: {
     AppFooter,
     AppMenu,
+    AppSideBar,
   },
 }
 </script>

@@ -1,6 +1,6 @@
 <template>
   <v-footer height="auto" class="d-block footer">
-    <v-img :src="require('@/assets/ihlas-in-footer.png')" class="v-img mx-auto mt-5 mb-4"></v-img>
+    <v-img :src="require('@/assets/ihlas-in-footer.png')" class="v-img mx-auto mt-5 mb-4"/>
     <v-card
       class="primary primary--text text--lighten-5 font-weight-bold pl-3 py-1 footer-card rounded-borders rounded-borders_top"
     >Осталось сауабов на

@@ -1,7 +1,7 @@
 <template>
-  <v-navigation-drawer app v-model="opened">
+  <v-navigation-drawer app v-model="states.menu">
     <v-list>
-      <v-list-tile v-for="item in items" :key="item.title" @click="dummy">
+      <v-list-tile v-for="item in items" :key="item.title">
         <v-list-tile-action>
           <v-icon>mdi-{{ item.icon }}</v-icon>
         </v-list-tile-action>
@@ -15,14 +15,11 @@
 
 <script>
 export default {
-  props: ['opened'],
+  props: ['states'],
   data() {
     return {
       items: [{ title: 'Главная', icon: 'home' }],
     }
-  },
-  methods: {
-    dummy() {},
   },
 }
 </script>
