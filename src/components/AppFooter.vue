@@ -14,6 +14,8 @@
 </template>
 
 <style lang="scss" scoped>
+@import '../styles/vars';
+
 .footer {
   background: rgba($color: $primary, $alpha: .2);
 }
