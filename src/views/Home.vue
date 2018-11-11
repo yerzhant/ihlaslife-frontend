@@ -1,88 +1,41 @@
 <template>
-  <div>
-    <p>1-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-    <p>999Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, ipsam consequuntur. Ratione illo ipsam ad. Sit quisquam voluptate explicabo! Libero est asperiores earum corrupti veniam! Iusto, quod quo! Delectus, molestiae.</p>
-  </div>
+    <v-container grid-list-md>
+        <v-layout row wrap>
+            <v-flex v-for="section in sections" :key="section.id" xs12 md6>
+                <app-section :section="section"/>
+            </v-flex>
+        </v-layout>
+    </v-container>
 </template>
 
 <script>
-  // import HelloWorld from '../components/HelloWorld'
+import AppSection from '@/components/AppSection.vue'
 
-  export default {
-    // components: {
-    //   HelloWorld
-    // }
-  }
+export default {
+  data() {
+    return {
+      sections: [],
+    }
+  },
+  created() {
+    this.sections.push({
+      id: 1,
+      title: 'Title',
+      quote: 'l;kjsd f;aljsf asdl;jfasdkl;fjdasdsaf asdffasd fasdfasdfasdfasd',
+      quoteSourse: 'sdfsdfsdfsd',
+    })
+    this.sections.push({
+      id: 2,
+      title: 'Title 2',
+      quote: 'l;kjsd f;aljsf asdl;jfasdkl;fjdasdsaf asdffasd fasdfasdfasdfasd',
+      quoteSourse: 'sdfsdfsdfsd',
+    })
+  },
+  components: {
+    AppSection,
+  },
+}
 </script>
+
+<style>
+</style>
