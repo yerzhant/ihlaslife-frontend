@@ -20,15 +20,15 @@ export default {
   created() {
     this.sections.push({
       id: 1,
-      title: 'Title',
+      name: 'Title',
       quote: 'l;kjsd f;aljsf asdl;jfasdkl;fjdasdsaf asdffasd fasdfasdfasdfasd',
-      quoteSourse: 'sdfsdfsdfsd',
+      quoteSource: 'sdfsdfsdfsd',
     })
     this.sections.push({
       id: 2,
-      title: 'Title 2',
+      name: 'Title 2',
       quote: 'l;kjsd f;aljsf asdl;jfasdkl;fjdasdsaf asdffasd fasdfasdfasdfasd',
-      quoteSourse: 'sdfsdfsdfsd',
+      quoteSource: 'sdfsdfsdfsd',
     })
   },
   components: {
