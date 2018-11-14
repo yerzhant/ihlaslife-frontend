@@ -14,10 +14,10 @@
             <v-toolbar-title @click.stop="$router.push('/')">ИХЛЯС life</v-toolbar-title>
             <v-spacer></v-spacer>
             <v-btn icon>
-                <v-icon>mdi-facebook-box</v-icon>
+                <v-icon>mdi-whatsapp</v-icon>
             </v-btn>
             <v-btn icon>
-                <v-icon>mdi-whatsapp</v-icon>
+                <v-icon>mdi-facebook-box</v-icon>
             </v-btn>
             <v-btn icon @click.stop="sideBarsStates.sideBar = !sideBarsStates.sideBar">
                 <v-icon>mdi-dots-vertical</v-icon>
