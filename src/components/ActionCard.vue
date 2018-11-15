@@ -56,7 +56,7 @@ export default {
           {
             publicId: 'test_api_00000000000000000000001',
             description: this.action.paymentDesc,
-            amount: this.amount,
+            amount: Number(this.amount),
             currency: 'KZT',
             invoiceId: this.action.id,
           }
