@@ -44,19 +44,35 @@ export default {
   data() {
     return {
       progress: (this.action.paidAmount / this.action.totalAmount) * 100,
-      opened: true,
+      opened: false,
       amount: null,
     }
   },
   methods: {
     help() {
       if (this.amount > 0) {
-        console.log(this.amount)
+        var widget = new window.cp.CloudPayments()
+        widget.charge(
+          {
+            publicId: 'test_api_00000000000000000000001',
+            description: this.action.paymentDesc,
+            amount: this.amount,
+            currency: 'KZT',
+            invoiceId: this.action.id,
+          }
+          // function(options) {
+          //   console.log('OK: ' + options)
+          // },
+          // function(reason, options) {
+          //   console.log('FAIL: ' + reason)
+          //   console.log('----: ' + options)
+          // }
+        )
       }
     },
     toggle() {
       this.opened = !this.opened
-      // this.$emit('toggled', this.opened)
+      this.$emit('toggled')
     },
   },
 }
@@ -75,8 +91,8 @@ export default {
   position: absolute;
   right: 0;
   left: 0;
-  bottom: 50px;
-  top: 360px;
+  bottom: 74px;
+  top: 335px;
   background-color: rgba($color: #000000, $alpha: 0.5);
   padding: 15px 20px;
   overflow: hidden;
@@ -134,13 +150,13 @@ $descButtonSize: 30px;
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 330px;
+  top: 305px;
   right: calc(50% - #{$descButtonSize});
   width: $descButtonSize * 2;
   height: $descButtonSize;
+  border: 1px solid #fff;
   border-top-right-radius: $descButtonSize * 2;
   border-top-left-radius: $descButtonSize * 2;
-  border: 1px solid #fff;
   background-color: rgba($color: $primary, $alpha: 0.5);
   padding-top: 5px;
   z-index: 1;
@@ -153,7 +169,8 @@ $descButtonSize: 30px;
 }
 .text {
   color: #fff;
-  height: 320px;
+  height: 296px;
+  overflow: hidden;
 }
 .amounts {
   display: flex;
@@ -163,19 +180,21 @@ $descButtonSize: 30px;
   bottom: 0;
   left: 0;
   background-color: rgba($color: #000000, $alpha: 0.5);
-  padding: 13px 20px 10px;
+  padding: 15px 20px;
   color: #fff;
   font-weight: 300;
   font-size: 12px;
+  line-height: 1;
+  text-align: center;
 }
 .v-chip {
+  display: block;
   font-family: $pt-serif;
   color: #fff;
-  margin: 0;
-  margin-left: 5px;
+  margin: 7px 0 0;
   /deep/ &__content {
     height: auto;
-    padding: 3px 10px;
+    padding: 5px 10px;
     font-weight: bold;
   }
 }

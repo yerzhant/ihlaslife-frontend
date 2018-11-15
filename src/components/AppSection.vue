@@ -1,9 +1,9 @@
 <template>
   <v-card class="rounded-borders pb-1 elevation-5">
     <header
-      class="px-3 py-3 primary lighten-2 primary--text text--lighten-5 text-uppercase font-weight-medium"
+      class="px-3 py-3 primary lighten-3 primary--text text--darken-2 text-uppercase font-weight-medium"
     >{{section.name}}</header>
-    <section class="ma-3 pa-3 secondary lighten-3 rounded-borders rounded-borders_top">
+    <section class="mx-3 mt-3 pa-3 secondary lighten-3 rounded-borders rounded-borders_top">
       <div class="mb-3 grey--text text--lighten-3">{{section.quote}}</div>
       <div
         class="font-italic text-xs-right secondary--text text--darken-4 font-weight-light"
@@ -12,7 +12,7 @@
     <v-carousel
       hide-delimiters
       :cycle="false"
-      class="ma-3 elevation-5"
+      class="mx-3 mt-2 mb-3 elevation-5"
       :class="{ 'hide-controls': hideControls }"
       style="width: auto"
     >
@@ -41,6 +41,7 @@ export default {
       image: 'img-1.jpg',
       totalAmount: 12300,
       paidAmount: 3300,
+      paymentDesc: 'Payment for по акции',
     })
     this.actions.push({
       id: 2,
@@ -48,6 +49,7 @@ export default {
       image: 'img-2.jpg',
       totalAmount: 1230,
       paidAmount: 932,
+      paymentDesc: 'Payment for an action',
     })
     this.actions.push({
       id: 3,
@@ -55,6 +57,7 @@ export default {
       image: 'img-3.jpg',
       totalAmount: 1243,
       paidAmount: 303,
+      paymentDesc: 'Payment for an action',
     })
   },
   components: {

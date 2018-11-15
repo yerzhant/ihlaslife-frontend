@@ -25,7 +25,7 @@
         </v-toolbar>
         <app-menu :states="sideBarsStates"/>
         <app-side-bar :states="sideBarsStates"/>
-        <v-content>
+        <v-content class="mt-4">
             <router-view></router-view>
         </v-content>
         <app-footer/>
