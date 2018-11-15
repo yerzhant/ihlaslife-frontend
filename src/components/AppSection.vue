@@ -1,20 +1,26 @@
 <template>
-    <v-card class="rounded-borders pb-1 elevation-5">
-        <header
-            class="px-3 py-3 primary lighten-2 primary--text text--lighten-5 text-uppercase font-weight-medium"
-        >{{section.name}}</header>
-        <section class="ma-3 pa-3 secondary lighten-3 rounded-borders rounded-borders_top">
-            <div class="mb-3 grey--text text--lighten-3">{{section.quote}}</div>
-            <div
-                class="font-italic text-xs-right secondary--text text--darken-4 font-weight-light"
-            >{{section.quoteSource}}</div>
-        </section>
-        <v-carousel hide-delimiters :cycle="false" class="ma-3 elevation-5">
-            <v-carousel-item v-for="action in actions" :key="action.id">
-                <action-card :action="action"/>
-            </v-carousel-item>
-        </v-carousel>
-    </v-card>
+  <v-card class="rounded-borders pb-1 elevation-5">
+    <header
+      class="px-3 py-3 primary lighten-2 primary--text text--lighten-5 text-uppercase font-weight-medium"
+    >{{section.name}}</header>
+    <section class="ma-3 pa-3 secondary lighten-3 rounded-borders rounded-borders_top">
+      <div class="mb-3 grey--text text--lighten-3">{{section.quote}}</div>
+      <div
+        class="font-italic text-xs-right secondary--text text--darken-4 font-weight-light"
+      >{{section.quoteSource}}</div>
+    </section>
+    <v-carousel
+      hide-delimiters
+      :cycle="false"
+      class="ma-3 elevation-5"
+      :class="{ 'hide-controls': hideControls }"
+      style="width: auto"
+    >
+      <v-carousel-item v-for="action in actions" :key="action.id">
+        <action-card :action="action" @toggled="hideControls = !hideControls"/>
+      </v-carousel-item>
+    </v-carousel>
+  </v-card>
 </template>
 
 <script>
@@ -25,6 +31,7 @@ export default {
   data() {
     return {
       actions: [],
+      hideControls: false,
     }
   },
   created() {
@@ -57,7 +64,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.v-carousel {
-  width: auto;
+.v-carousel.hide-controls {
+  /deep/ .v-carousel__prev,
+  /deep/ .v-carousel__next {
+    display: none;
+  }
 }
 </style>
