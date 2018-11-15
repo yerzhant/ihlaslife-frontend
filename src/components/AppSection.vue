@@ -32,8 +32,8 @@ export default {
       id: 1,
       description: 'dsf asdfd asfsa',
       image: 'img-1.jpg',
-      totalAmount: 123,
-      paidAmount: 33,
+      totalAmount: 12300,
+      paidAmount: 3300,
     })
     this.actions.push({
       id: 2,

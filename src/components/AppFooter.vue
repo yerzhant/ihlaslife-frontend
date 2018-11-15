@@ -6,7 +6,7 @@
     >Осталось сауабов на
       <v-chip color="accent" text-color="white">
         <v-icon left small>mdi-gift</v-icon>
-        <strong class="subheading pt-serif font-weight-bold">777 777</strong>
+        <strong class="subheading pt-serif font-weight-bold">{{777777 | formatNumber}}</strong>
         <v-icon right small>mdi-gift</v-icon>
       </v-chip>тенге
     </v-card>
