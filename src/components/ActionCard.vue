@@ -43,10 +43,14 @@ export default {
   props: ['action'],
   data() {
     return {
-      progress: (this.action.paidAmount / this.action.totalAmount) * 100,
       opened: false,
       amount: null,
     }
+  },
+  computed: {
+    progress() {
+      return (this.action.paidAmount / this.action.totalAmount) * 100
+    },
   },
   methods: {
     help() {
@@ -59,10 +63,10 @@ export default {
             amount: Number(this.amount),
             currency: 'KZT',
             invoiceId: this.action.id,
+          },
+          options => {
+            this.action.paidAmount += Number(this.amount)
           }
-          // function(options) {
-          //   console.log('OK: ' + options)
-          // },
           // function(reason, options) {
           //   console.log('FAIL: ' + reason)
           //   console.log('----: ' + options)
