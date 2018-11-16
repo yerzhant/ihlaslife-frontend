@@ -29,7 +29,7 @@
           <v-icon color="accent">mdi-whatsapp</v-icon>
         </v-list-tile-action>
         <v-list-tile-content class="deep-purple--text">
-          <v-list-tile-title>Присоединиться</v-list-tile-title>
+          <v-list-tile-title>Стать волонтёром</v-list-tile-title>
         </v-list-tile-content>
       </v-list-tile>
       <v-list-tile href="https://www.facebook.com/groups/ihlasfund/">
@@ -52,7 +52,7 @@ export default {
       items: [
         { title: 'Главная', icon: 'home', link: '/' },
         { title: 'Банковские реквизиты', icon: 'bank', link: '/' },
-        { title: 'Контанты', icon: 'contacts', link: '/' },
+        { title: 'Контанты', icon: 'map-marker', link: '/' },
         { title: 'О сообществе', icon: 'information', link: '/' },
       ],
     }
