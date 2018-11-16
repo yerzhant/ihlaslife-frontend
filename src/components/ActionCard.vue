@@ -164,6 +164,7 @@ $descButtonSize: 20px;
   border-top-left-radius: $descButtonSize * 2;
   background-color: rgba($color: #673AB7, $alpha: 0.3);
   z-index: 1;
+  cursor: pointer;
   padding-top: 2px;
   transition-property: top, transform;
   transition-duration: 1s;
