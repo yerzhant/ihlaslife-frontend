@@ -23,6 +23,23 @@
         </v-list-tile>
         <v-divider v-else :key="i"></v-divider>
       </template>
+      <v-divider></v-divider>
+      <v-list-tile>
+        <v-list-tile-action>
+          <v-icon color="accent">mdi-whatsapp</v-icon>
+        </v-list-tile-action>
+        <v-list-tile-content class="deep-purple--text">
+          <v-list-tile-title>Присоединиться</v-list-tile-title>
+        </v-list-tile-content>
+      </v-list-tile>
+      <v-list-tile href="https://www.facebook.com/groups/ihlasfund/">
+        <v-list-tile-action>
+          <v-icon color="#4267B2">mdi-facebook</v-icon>
+        </v-list-tile-action>
+        <v-list-tile-content class="deep-purple--text">
+          <v-list-tile-title>Отчеты</v-list-tile-title>
+        </v-list-tile-content>
+      </v-list-tile>
     </v-list>
   </v-navigation-drawer>
 </template>
@@ -37,9 +54,6 @@ export default {
         { title: 'Банковские реквизиты', icon: 'bank', link: '/' },
         { title: 'Контанты', icon: 'contacts', link: '/' },
         { title: 'О сообществе', icon: 'information', link: '/' },
-        { divider: true },
-        { title: 'Главнаяd', icon: 'whatsapp', link: '/' },
-        { title: 'Главная', icon: 'facebook', link: '/' },
       ],
     }
   },

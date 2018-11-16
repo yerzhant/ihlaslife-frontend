@@ -1,26 +1,26 @@
 <template>
-  <v-card class="rounded-borders pb-1 elevation-5">
-    <header
-      class="px-3 py-3 orange lighten-3 primary--text text--darken-2 text-uppercase font-weight-medium"
-    >{{section.name}}</header>
-    <section class="mx-3 mt-3 pa-3 deep-purple lighten-5 rounded-borders rounded-borders_top">
-      <div class="mb-3 grey--text text--darken-3">{{section.quote}}</div>
-      <div
-        class="font-italic text-xs-right grey--text text--darken-1 font-weight-light"
-      >{{section.quoteSource}}</div>
-    </section>
-    <v-carousel
-      hide-delimiters
-      :cycle="false"
-      class="mx-3 mt-2 mb-3 elevation-5"
-      :class="{ 'hide-controls': hideControls }"
-      style="width: auto"
-    >
-      <v-carousel-item v-for="action in actions" :key="action.id">
-        <action-card :action="action" @toggled="hideControls = !hideControls"/>
-      </v-carousel-item>
-    </v-carousel>
-  </v-card>
+    <v-card class="rounded-borders pb-1 elevation-5">
+        <header
+            class="px-3 py-3 orange lighten-3 primary--text text--darken-2 text-uppercase font-weight-medium"
+        >{{section.name}}</header>
+        <section class="mx-3 mt-3 pa-3 deep-purple lighten-5 rounded-borders rounded-borders_top">
+            <div class="mb-3 grey--text text--darken-3">{{section.quote}}</div>
+            <div
+                class="font-italic text-xs-right grey--text text--darken-1 font-weight-light"
+            >{{section.quoteSource}}</div>
+        </section>
+        <v-carousel
+            hide-delimiters
+            :cycle="false"
+            class="mx-3 mt-2 mb-3 elevation-5"
+            :class="{ 'hide-controls': hideControls }"
+            style="width: auto"
+        >
+            <v-carousel-item v-for="action in actions" :key="action.id">
+                <action-card :action="action" @toggled="hideControls = !hideControls"/>
+            </v-carousel-item>
+        </v-carousel>
+    </v-card>
 </template>
 
 <script>
@@ -67,6 +67,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@media (max-width: 600px) {
+    .v-card {
+        box-shadow: none !important;
+        border-radius: 0;
+    }
+}
 section.rounded-borders {
   border: 1px solid #d1c4e9 !important;
 }

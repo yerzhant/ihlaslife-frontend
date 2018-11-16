@@ -1,9 +1,12 @@
 <template>
-  <v-footer height="auto" class="d-block">
+  <v-footer
+    height="auto"
+    class="d-block"
+    :class="{ 'menu-open': sideBarStates.menu, 'side-bar-open': sideBarStates.sideBar }"
+  >
     <v-img :src="require('@/assets/ihlas-in-footer.png')" class="mx-auto my-4"/>
     <v-card
       class="primary primary--text text--lighten-5 font-weight-bold pl-3 py-1 rounded-borders rounded-borders_top"
-      :class="{ 'menu-open': menu }"
     >Осталось сауабов на
       <v-chip color="accent" text-color="white">
         <v-icon left small>mdi-gift</v-icon>
@@ -16,7 +19,7 @@
 
 <script>
 export default {
-  props: ['menu'],
+  props: ['sideBarStates'],
 }
 </script>
 
@@ -37,6 +40,11 @@ export default {
 .menu-open {
   @media (min-width: 500px) {
     margin-left: 300px;
+  }
+}
+.side-bar-open {
+  @media (min-width: 500px) {
+    margin-right: 300px;
   }
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
     <v-container grid-list-md>
-        <v-layout row wrap>
+        <v-layout row wrap="">
             <v-flex v-for="section in sections" :key="section.id" xs12 md6>
                 <app-section :section="section"/>
             </v-flex>
@@ -37,5 +37,11 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+.container {
+  @media (max-width: 600px) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
 </style>

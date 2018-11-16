@@ -1,7 +1,7 @@
 <template>
   <div class="card" :style="`background-image: url(/storage/images/${action.image}`">
     <div class="desc-button" @click="toggle" :class="{ opened: opened }">
-      <v-icon size="35" color="accent">mdi-menu-up</v-icon>
+      <v-icon size="35" color="primary">mdi-menu-up</v-icon>
     </div>
     <div class="description" :class="{ opened: opened }">
       <div class="text">
@@ -23,7 +23,7 @@
     </div>
     <div class="amounts">
       <div class="amount">Нужно:
-        <v-chip color="blue">{{action.totalAmount | formatNumber}}</v-chip>
+        <v-chip color="deep-purple">{{action.totalAmount | formatNumber}}</v-chip>
       </div>
       <div class="amount">Собрано:
         <v-chip color="primary">{{action.paidAmount | formatNumber}}</v-chip>
@@ -64,7 +64,7 @@ export default {
             currency: 'KZT',
             invoiceId: this.action.id,
           },
-          options => {
+          () => {
             this.action.paidAmount += Number(this.amount)
           }
           // function(reason, options) {
@@ -149,21 +149,22 @@ export default {
     }
   }
 }
-$descButtonSize: 30px;
+$descButtonSize: 20px;
 .desc-button {
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 305px;
+  top: 315px;
   right: calc(50% - #{$descButtonSize});
   width: $descButtonSize * 2;
   height: $descButtonSize;
-  border: 1px solid #fff;
+  border: 1px solid rgba($color: $accent, $alpha: 0.5);
+  border-bottom: none;
   border-top-right-radius: $descButtonSize * 2;
   border-top-left-radius: $descButtonSize * 2;
-  background-color: rgba($color: $primary, $alpha: 0.5);
-  padding-top: 5px;
+  background-color: rgba($color: #673AB7, $alpha: 0.3);
   z-index: 1;
+  padding-top: 2px;
   transition-property: top, transform;
   transition-duration: 1s;
   &.opened {

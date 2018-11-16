@@ -11,12 +11,15 @@
             <v-btn icon>
                 <v-img :src="require('./assets/logo.png')"/>
             </v-btn>
-            <v-toolbar-title @click.stop="$router.push('/')" class="primary--text text--lighten-5">ИХЛЯС life</v-toolbar-title>
+            <v-toolbar-title
+                @click.stop="$router.push('/')"
+                class="primary--text text--lighten-5"
+            >ИХЛЯС life</v-toolbar-title>
             <v-spacer></v-spacer>
             <v-btn icon>
                 <v-icon color="accent">mdi-whatsapp</v-icon>
             </v-btn>
-            <v-btn icon>
+            <v-btn icon href="https://www.facebook.com/groups/ihlasfund/">
                 <v-icon color="#4267B2">mdi-facebook-box</v-icon>
             </v-btn>
             <v-btn icon @click.stop="sideBarsStates.sideBar = !sideBarsStates.sideBar">
@@ -28,7 +31,7 @@
         <v-content class="mt-2">
             <router-view></router-view>
         </v-content>
-        <app-footer :menu="sideBarsStates.menu"/>
+        <app-footer :side-bar-states="sideBarsStates"/>
     </v-app>
 </template>
 
