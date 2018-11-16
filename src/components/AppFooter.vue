@@ -1,8 +1,9 @@
 <template>
-  <v-footer height="auto" class="d-block footer">
-    <v-img :src="require('@/assets/ihlas-in-footer.png')" class="v-img mx-auto mt-5 mb-4"/>
+  <v-footer height="auto" class="d-block">
+    <v-img :src="require('@/assets/ihlas-in-footer.png')" class="mx-auto my-4"/>
     <v-card
-      class="primary primary--text text--lighten-5 font-weight-bold pl-3 py-1 footer-card rounded-borders rounded-borders_top"
+      class="primary primary--text text--lighten-5 font-weight-bold pl-3 py-1 rounded-borders rounded-borders_top"
+      :class="{ 'menu-open': menu }"
     >Осталось сауабов на
       <v-chip color="accent" text-color="white">
         <v-icon left small>mdi-gift</v-icon>
@@ -13,17 +14,29 @@
   </v-footer>
 </template>
 
+<script>
+export default {
+  props: ['menu'],
+}
+</script>
+
+
 <style lang="scss" scoped>
 @import '../styles/vars';
 
-.footer {
-  background: rgba($color: $primary, $alpha: .2);
+.v-footer {
+  background-color: #f3f3f3;
 }
-.v-img {
-  width: 40%;
+.v-image {
+  width: 30%;
 }
-.footer-card {
+.v-card {
   box-shadow: 0px -2px 4px -1px rgba(0, 0, 0, 0.2),
     0px -4px 5px 0px rgba(0, 0, 0, 0.14), 0px -1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+.menu-open {
+  @media (min-width: 500px) {
+    margin-left: 300px;
+  }
 }
 </style>

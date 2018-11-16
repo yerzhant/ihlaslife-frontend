@@ -11,13 +11,13 @@
             <v-btn icon>
                 <v-img :src="require('./assets/logo.png')"/>
             </v-btn>
-            <v-toolbar-title @click.stop="$router.push('/')">ИХЛЯС life</v-toolbar-title>
+            <v-toolbar-title @click.stop="$router.push('/')" class="primary--text text--lighten-5">ИХЛЯС life</v-toolbar-title>
             <v-spacer></v-spacer>
             <v-btn icon>
-                <v-icon>mdi-whatsapp</v-icon>
+                <v-icon color="accent">mdi-whatsapp</v-icon>
             </v-btn>
             <v-btn icon>
-                <v-icon>mdi-facebook-box</v-icon>
+                <v-icon color="#4267B2">mdi-facebook-box</v-icon>
             </v-btn>
             <v-btn icon @click.stop="sideBarsStates.sideBar = !sideBarsStates.sideBar">
                 <v-icon>mdi-dots-vertical</v-icon>
@@ -25,10 +25,10 @@
         </v-toolbar>
         <app-menu :states="sideBarsStates"/>
         <app-side-bar :states="sideBarsStates"/>
-        <v-content class="mt-4">
+        <v-content class="mt-2">
             <router-view></router-view>
         </v-content>
-        <app-footer/>
+        <app-footer :menu="sideBarsStates.menu"/>
     </v-app>
 </template>
 

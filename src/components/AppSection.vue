@@ -1,12 +1,12 @@
 <template>
   <v-card class="rounded-borders pb-1 elevation-5">
     <header
-      class="px-3 py-3 primary lighten-3 primary--text text--darken-2 text-uppercase font-weight-medium"
+      class="px-3 py-3 orange lighten-3 primary--text text--darken-2 text-uppercase font-weight-medium"
     >{{section.name}}</header>
-    <section class="mx-3 mt-3 pa-3 secondary lighten-3 rounded-borders rounded-borders_top">
-      <div class="mb-3 grey--text text--lighten-3">{{section.quote}}</div>
+    <section class="mx-3 mt-3 pa-3 deep-purple lighten-5 rounded-borders rounded-borders_top">
+      <div class="mb-3 grey--text text--darken-3">{{section.quote}}</div>
       <div
-        class="font-italic text-xs-right secondary--text text--darken-4 font-weight-light"
+        class="font-italic text-xs-right grey--text text--darken-1 font-weight-light"
       >{{section.quoteSource}}</div>
     </section>
     <v-carousel
@@ -67,6 +67,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+section.rounded-borders {
+  border: 1px solid #d1c4e9 !important;
+}
 .v-carousel.hide-controls {
   /deep/ .v-carousel__prev,
   /deep/ .v-carousel__next {
