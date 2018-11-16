@@ -70,7 +70,7 @@ export default {
 @media (max-width: 600px) {
     .v-card {
         box-shadow: none !important;
-        border-radius: 0;
+        border-top-left-radius: 0;
     }
 }
 section.rounded-borders {
