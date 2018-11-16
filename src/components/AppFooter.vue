@@ -32,6 +32,9 @@ export default {
 }
 .v-image {
   width: 30%;
+  @media (max-width: 600px) {
+    width: 70%;
+  }
 }
 .v-card {
   box-shadow: 0px -2px 4px -1px rgba(0, 0, 0, 0.2),
