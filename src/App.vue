@@ -29,7 +29,9 @@
         <app-menu :states="sideBarsStates"/>
         <app-side-bar :states="sideBarsStates"/>
         <v-content class="mt-2">
-            <router-view></router-view>
+            <v-container grid-list-md class="view-container">
+                <router-view></router-view>
+            </v-container>
         </v-content>
         <app-footer :side-bar-states="sideBarsStates"/>
     </v-app>
@@ -56,3 +58,12 @@ export default {
   },
 }
 </script>
+
+<style lang="scss" scoped>
+.view-container {
+  @media (max-width: 600px) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+</style>

@@ -1,15 +1,13 @@
 <template>
-    <v-container grid-list-md>
-        <v-layout row wrap="">
-            <v-flex v-for="section in sections" :key="section.id" xs12 md6>
-                <app-section :section="section"/>
-            </v-flex>
-        </v-layout>
-    </v-container>
+  <v-layout row wrap="">
+    <v-flex v-for="section in sections" :key="section.id" xs12 md6>
+      <actions :section="section"/>
+    </v-flex>
+  </v-layout>
 </template>
 
 <script>
-import AppSection from '@/components/AppSection.vue'
+import Actions from '@/components/Actions.vue'
 
 export default {
   data() {
@@ -20,28 +18,19 @@ export default {
   created() {
     this.sections.push({
       id: 1,
-      name: 'Title',
+      title: 'Title',
       quote: 'l;kjsd f;aljsf asdl;jfasdkl;fjdasdsaf asdffasd fasdfasdfasdfasd',
       quoteSource: 'sdfsdfsdfsd',
     })
     this.sections.push({
       id: 2,
-      name: 'Title 2',
+      title: 'Title 2',
       quote: 'l;kjsd f;aljsf asdl;jfasdkl;fjdasdsaf asdffasd fasdfasdfasdfasd',
       quoteSource: 'sdfsdfsdfsd',
     })
   },
   components: {
-    AppSection,
+    Actions,
   },
 }
 </script>
-
-<style lang="scss" scoped>
-.container {
-  @media (max-width: 600px) {
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
-</style>
