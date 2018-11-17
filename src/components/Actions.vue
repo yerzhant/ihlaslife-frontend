@@ -1,6 +1,6 @@
 <template>
   <app-section :title="section.title">
-    <section class="mx-3 mt-3 pa-3 deep-purple lighten-5 rounded-borders rounded-borders_top">
+    <section class="pa-3 deep-purple lighten-5 rounded-borders rounded-borders_top">
       <div class="mb-3 grey--text text--darken-3">{{section.quote}}</div>
       <div
         class="font-italic text-xs-right grey--text text--darken-1 font-weight-light"
@@ -9,7 +9,7 @@
     <v-carousel
       hide-delimiters
       :cycle="false"
-      class="mx-3 mt-2 mb-3 elevation-5"
+      class="mt-2 elevation-5 rounded-borders rounded-borders_bottom"
       :class="{ 'hide-controls': hideControls }"
       style="width: auto"
     >

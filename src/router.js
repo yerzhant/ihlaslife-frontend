@@ -10,14 +10,19 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
       component: Home
     },
-    // TODO contacts, accounts
+    {
+      path: '/accounts',
+      component: () => import(/* webpackChunkName: "info" */ './views/Accounts.vue')
+    },
+    {
+      path: '/contacts',
+      component: () => import(/* webpackChunkName: "info" */ './views/Contacts.vue')
+    },
     {
       path: '/about',
-      name: 'about',
-      component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
+      component: () => import(/* webpackChunkName: "info" */ './views/About.vue')
     }
   ]
 })

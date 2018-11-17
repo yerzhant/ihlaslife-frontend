@@ -1,9 +1,9 @@
 <template>
-  <v-layout row wrap="">
-    <v-flex v-for="section in sections" :key="section.id" xs12 md6>
-      <actions :section="section"/>
-    </v-flex>
-  </v-layout>
+    <v-layout row wrap="">
+        <v-flex v-for="section in sections" :key="section.id" xs12 md6>
+            <actions :section="section"/>
+        </v-flex>
+    </v-layout>
 </template>
 
 <script>

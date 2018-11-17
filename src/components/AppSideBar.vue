@@ -1,9 +1,9 @@
 <template>
     <v-navigation-drawer app right v-model="states.sideBar" class="deep-purple lighten-5">
-        <v-toolbar flat color="orange lighten-3">
+        <v-toolbar flat color="orange lighten-4">
             <v-list>
                 <v-list-tile>
-                    <v-list-tile-title class="title primary--text text--darken-2">Перевести на карту</v-list-tile-title>
+                    <v-list-tile-title class="primary--text text--darken-1 font-weight-medium">Перевести на карту</v-list-tile-title>
                 </v-list-tile>
             </v-list>
         </v-toolbar>

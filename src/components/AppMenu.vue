@@ -1,12 +1,12 @@
 <template>
   <v-navigation-drawer app v-model="states.menu" class="deep-purple lighten-5">
-    <v-toolbar flat color="orange lighten-3">
+    <v-toolbar flat color="orange lighten-4">
       <v-list>
         <v-list-tile>
           <v-list-tile-action>
             <v-img :src="require('../assets/logo.png')" height="35" contain/>
           </v-list-tile-action>
-          <v-list-tile-title class="title primary--text text--darken-2">ИХЛЯС life</v-list-tile-title>
+          <v-list-tile-title class="primary--text text--darken-1 font-weight-medium">ИХЛЯС life</v-list-tile-title>
         </v-list-tile>
       </v-list>
     </v-toolbar>
@@ -51,9 +51,9 @@ export default {
     return {
       items: [
         { title: 'Главная', icon: 'home', link: '/' },
-        { title: 'Банковские реквизиты', icon: 'bank', link: '/' },
-        { title: 'Контанты', icon: 'map-marker', link: '/' },
-        { title: 'О сообществе', icon: 'information', link: '/' },
+        { title: 'Банковские реквизиты', icon: 'bank', link: '/accounts' },
+        { title: 'Контанты', icon: 'map-marker', link: '/contacts' },
+        { title: 'О сообществе', icon: 'information', link: '/about' },
       ],
     }
   },
