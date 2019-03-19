@@ -1,3 +1,6 @@
+# Design
+https://www.figma.com/file/F9Y0mZhglnvdGX7F10tqmLOb/%D0%98%D1%85%D0%BB%D1%8F%D1%81
+
 # frontend
 
 ## Project setup
